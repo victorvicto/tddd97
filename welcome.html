@@ -1,0 +1,181 @@
+<html>
+	<head>
+		<title>TWIDDER &gt; WELCOME</title>
+		<link href="welcome.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- block where everything is -->
+		<div class="all">
+
+			<!-- block on the left, logo+slogan -->
+			<div class="logo_slogan">
+				<img src="logo.png" alt="Logo and slogan" height="390" width="340">
+			</div>
+
+			<!-- block on the right : sign up & in -->
+			<div class="right">
+
+				<!-- signin block -->
+				<div class="login">
+					<!-- begin of signup form-->
+					<form>
+					<!-- form in a table to have an aligned form -->
+					<!-- tr: one row || td: one cell -->
+					<table class="signin">
+
+						<!-- email row -->
+						<tr>
+							<!-- label cell -->
+							<td>
+							<img src="img/email.png" alt="E-mail:" height="20" width="60" >
+							</td>
+							<!-- text field cell -->
+							<td class="right_cell">
+							<input class="inputs" type="text" name="email">
+							</td>
+						</tr>
+
+						<!-- password row -->
+						<tr>
+							<td>
+							<img src="img/password.png" alt="Password:" height="25" width="70" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="password" name="psswrd">
+							</td>
+						</tr>
+
+						<!-- submit row -->
+						<tr>
+							<!-- colspan = cell takes two col -->
+							<td class="submit" colspan="2">
+							<input class="sub_button" type="submit" value="Sign In">
+							</td>
+						</tr>
+
+					</table>
+					</form>				
+				</div>
+
+				<!-- signup block -->
+				<div class="signup">
+					<!-- begin of signup form-->
+					<form>
+					<!-- form in a table to have an aligned form -->
+					<!-- tr: one row || td: one cell -->
+					<table>
+
+						<!-- title row -->
+						<tr>
+							<th colspan="2">
+							<img src="img/signupthere.png" alt="E-mail:" height="35" width="140" >		
+							</th>
+						</tr>
+
+						<!-- email row -->
+						<tr>
+							<td>
+							<img src="img/email.png" alt="E-mail:" height="20" width="60" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" id="inputa" type="text" name="email">
+							</td>
+						</tr>
+
+						<!-- pssword row -->
+						<tr>
+							<td>
+							<img src="img/password.png" alt="Password:" height="25" width="70" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="password" name="pss">
+							</td>
+						</tr>
+
+						<!-- pssword repeat row -->
+						<tr>
+							<td>
+							<img src="img/passwordR.png" alt="Password:" height="40" width="70" >
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="password" name="pssR">
+							</td>
+						</tr>
+
+						<!-- first name row -->
+						<tr>
+							<td>
+							<img src="img/firstname.png" alt="F name:" height="25" width="70" >
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="text" name="fstname">
+							</td>
+						</tr>
+
+						<!-- last name row -->
+						<tr>
+							<td>
+							<img src="img/lastname.png" alt="L name:" height="20" width="70" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="text" name="famname">
+							</td>
+						</tr>
+
+						<!-- gender row : radio button -->
+						<tr>
+							<!-- gender label -->
+							<td>
+							<img src="img/gender.png" alt="gender:" height="20" width="50" > 
+							</td>
+						
+							<!-- only one cell for all buttons-->
+							<!-- that way are aligned with all others-->
+							<td class="right_cell">
+							<!-- M button-->
+							<input type="radio" name="gender" value="m" checked>
+							<img src="img/male.png" alt="M" height="17" width="17" >
+							<!-- F button -->
+	  						<input type="radio" name="gender" value="f">
+	  						<img src="img/female.png" alt="F" height="17" width="17" >
+	  						<!-- Other button-->
+	  						<input type="radio" name="gender" value="o"> 
+	  						<img src="img/other.png" alt="Other" height="18" width="30" >
+	  						</td>
+  						</tr>
+
+  						<!-- city row -->
+  						<tr>
+  							<td>
+							<img src="img/city.png" alt="city:" height="23" width="70" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="text" name="city">
+							</td>
+						</tr>
+
+						<!-- country row -->
+						<tr>
+							<td>
+							<img src="img/country.png" alt="country:" height="25" width="70" > 
+							</td>
+							<td class="right_cell">
+							<input class="inputs" type="text" name="country">
+							</td>
+						</tr>
+
+						<!-- submit button -->
+						<tr>
+							<td class="submit" colspan="2">
+							<input class="sub_button" type="submit" value="Sign Up">
+							</td>
+						</tr>
+					</form>	
+				<!-- signin block end -->
+				</div>
+			<!-- right block end -->
+			</div>
+		<!-- all block end -->
+		</div>
+	</body>
+</html>

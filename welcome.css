@@ -1,0 +1,125 @@
+body {
+		background-color: yellow;
+}
+
+div.all {
+	position: relative;
+
+	width: 600px;
+	height: 400px;
+	
+	margin: 100 auto;
+	padding: 0;
+
+	overflow: hidden;
+}
+
+div.logo_slogan{
+	position: absolute;
+
+	float: left;
+	
+	/*394px + border 3px * 2 = 400 px*/
+	height: 394px;
+	width: 340px;
+	
+	margin: auto 10 auto auto;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+
+	border: 3px solid #000066;
+	border-radius: 25px;
+	background-color: white;
+}
+
+div.login
+{
+	position: absolute;
+
+	height: 22%;
+	/*244px + border 3px * 2 = 250 px*/
+	width: 244px;
+
+	top: 0;
+	right: 0;
+	left: 0;
+
+	border: 3px solid #000066;
+	border-radius: 15px;
+	background-color: white;
+}
+
+div.signup{
+	position: absolute;
+	
+	height: 75%;
+	/*244px + border 3px * 2 = 250 px*/
+	width: 244px;
+
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	border: 3px solid #000066;
+	border-radius: 15px;
+	background-color: white;
+}
+
+div.right{
+	position: absolute;
+	
+	width: 250px;
+	height: 400px;
+
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+}
+
+
+/*This is for making the forms take the right size*/
+.right_cell{
+	text-align: center;
+	width: 70%;
+}
+.inputs{
+	position: relative;
+	width: 70%;
+	height: 100%
+}
+
+table td.submit{
+	text-align: center;
+}
+
+table.signin{
+	margin-top: 10;
+}
+
+table{
+	width: 100%;
+}
+
+.sub_button{
+	background: #006F9D;
+	color: #fff;
+
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+
+	width: 50%;
+}
+
+.sub_button:hover{
+	background: #99D9EA;
+}
+
+/*.inputs#inputa{
+	position: relative;
+	right : -10;
+}

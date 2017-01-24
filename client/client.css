@@ -1,0 +1,198 @@
+body {
+	background-color: #ffe600;
+}
+
+div.all {
+	position: relative;
+
+	width: 600px;
+	height: 400px;
+	
+	margin: 100 auto;
+	padding: 0;
+
+	/*overflow: hidden;*/
+}
+
+div.logo_slogan{
+	position: absolute;
+
+	float: left;
+	
+	/*394px + border 3px * 2 = 400 px*/
+	height: 394px;
+	width: 340px;
+	
+	margin: auto 10 auto auto;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+
+	border: 3px solid #006F9D;
+	border-radius: 25px;
+	background-color: white;
+}
+
+div.login,
+div.user_block
+{
+	position: absolute;
+
+	height: 90px;
+	/*244px + border 3px * 2 = 250 px*/
+	width: 244px;
+
+	top: 0;
+	right: 0;
+	left: 0;
+
+	border: 3px solid #006F9D;
+	border-radius: 15px;
+	background-color: white;
+}
+
+div.signup,
+div.menu{
+	position: absolute;
+	
+	height: 295px;
+	/*244px + border 3px * 2 = 250 px*/
+	width: 244px;
+
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	border: 3px solid #006F9D;
+	border-radius: 15px;
+	background-color: white;
+	
+	
+}
+
+div.right{
+	position: absolute;
+	
+	width: 250px;
+	height: 400px;
+
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+}
+
+
+/*This is for making the forms take the right size*/
+#signin_form{
+	margin-top: 10;
+}
+
+#signup_form{
+	position: relative;
+	top: -10;
+}
+
+.rows{
+	height: 25px;
+	width: 244px;
+	margin-top: 3px;
+}
+
+.rows#signup_title{
+	margin-top: 0;
+	margin-bottom: 10;
+}
+
+.inputs{
+	position: absolute;
+	width: 50%;
+	height: 17px;
+	right: 10%;
+
+}
+
+.inputs_RB{
+	position: absolute;
+	width: 55%;
+	height: 25px;
+	right: 5%;
+
+}
+
+.sub_button{
+	position: absolute;
+
+	background: #006F9D;
+	color: #fff;
+
+	border: 1px solid #eee;
+	border-radius: 20px;
+
+	width: 50%;
+
+	/*61 car width tot : 244
+		- 50% de width du button
+		/2 pour être centré
+
+	On peut faire ça car les tailles sont fixées*/
+	right: 61;
+	margin-top: 5;
+}
+
+.sub_button:hover{
+	background: #99D9EA;
+}
+
+.form_label{
+	position: absolute;
+
+	left: 10;
+}
+
+.form_label{
+	position: relative;
+
+	bottom: 3;
+}
+
+#m_label,
+#f_label,
+#o_label,
+.form_label{
+	color:#00a2e8;
+
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px; 
+	font-variant: small-caps;
+
+	text-shadow: 0.5px 1px #99D9EA;
+}
+
+h2{
+	color: #00a2e8;	
+	text-align: center;
+
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size-adjust: 20px; 
+	font-variant: small-caps;
+
+	text-shadow: 2px 1px #99D9EA;
+}
+
+.form_error{
+	position: relative;
+	bottom: 5px;
+
+	text-align: center;
+	font-style: italic;
+	color: red;
+	font-size-adjust: 0.4; 
+
+}
+
+
